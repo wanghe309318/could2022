@@ -57,7 +57,7 @@ import java.util.concurrent.TimeUnit;
         {
             if(id < 0)
             {
-                log.error("******id 不能负数");
+                log.error("******id 不能负ss数");
                 throw new RuntimeException("******id 不能负数");
             }
             String serialNumber = IdUtil.simpleUUID();
